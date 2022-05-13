@@ -1,0 +1,9 @@
+<?php
+$from = '0.00';
+$to = '0.00';
+function cal($frmT, $toT)
+{
+return '1.0';
+}
+echo cal('.00'. '.000');
+?>
