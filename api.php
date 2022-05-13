@@ -38,6 +38,7 @@ function utf8ize($d)
     $obj = new EMPLOYEEDETAILS();
     print_r( $obj->getEMPlist());
     echo  json_encode(utf8ize($obj->getEMPlist()), JSON_PRETTY_PRINT);
+    echo "123";
 // }
 
 
